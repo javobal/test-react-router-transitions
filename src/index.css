@@ -6,9 +6,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: gray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html, body, #root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header { 
+  background: lightsalmon;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightcyan;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: lightseagreen;
 }
